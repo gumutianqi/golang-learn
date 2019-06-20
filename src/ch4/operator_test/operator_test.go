@@ -22,7 +22,7 @@ const (
 	Executable
 )
 
-// 测试对变量的置零操作符 &^
+// 测试对变量的按位置零操作符 &^
 func TestBitClear(t *testing.T) {
 
 	// 结果是 1 2 4，貌似刚好对应上 Linux 上的[rwx] read=1, write=2, execution=4
